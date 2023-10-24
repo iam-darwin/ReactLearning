@@ -6,8 +6,11 @@ export default function App() {
   let [counter, setCounter] = useState(1);
 
   function addUp() {
-    counter++;
-    setCounter(counter);
+  setCounter(counter+1);
+  setCounter(counter+1);
+  setCounter(counter+1);
+  setCounter(counter+1);
+
   }
 
   function keepDown() {
